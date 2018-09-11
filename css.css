@@ -13,9 +13,17 @@
     color: #294552;
 }
 
+#employeeName {
+    width: 30%;
+}
+
 #d {
     font-family: 'Noto Serif KR', sans-serif;
     color: #294552;
+}
+
+#role {
+    width: 30%;
 }
 
 #e {
@@ -23,19 +31,31 @@
     color: #294552;
 }
 
+#startDate {
+    width: 30%;
+}
+
+
+#press {
+
+}
+
+.form-control {
+
+}
+
+#frown {
+    width: 70%;
+}
 
 
 
 
-
-
-
-
-
-.btn {
+#submit {
     background-color:white;
     color: #294552;
     border-color: #294552;
+    float: left;
 
 }
 
