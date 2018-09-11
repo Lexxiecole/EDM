@@ -10,16 +10,34 @@
 
 #c {
     font-family: 'Noto Serif KR', sans-serif;
+    color: #294552;
 }
 
 #d {
     font-family: 'Noto Serif KR', sans-serif;
+    color: #294552;
 }
 
 #e {
     font-family: 'Noto Serif KR', sans-serif;
+    color: #294552;
 }
 
+
+
+
+
+
+
+
+
+
+.btn {
+    background-color:white;
+    color: #294552;
+    border-color: #294552;
+
+}
 
 
 
@@ -29,7 +47,33 @@
     color: navy;
 }
 
+#life {
+    background-color: purple;
+}
 
+#hand {
+    background-color: #597884;
+}
+
+#foot {
+    background-color: #597884;
+}
+
+#neck {
+    background-color: #597884;
+}
+
+#back {
+    background-color: #597884;
+}
+
+#leg {
+    background-color: #597884;
+}
+
+#head {
+    background-color: #597884;
+}
 
 
 

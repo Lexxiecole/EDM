@@ -18,6 +18,8 @@
         <span class="navbar-brand mb-0 h1" id = "b">Employee Database Management</span>
     </nav>
 
+    <br>
+
     <div class="container">
         <form>
             <div class="form-group">
@@ -25,33 +27,45 @@
                 <label for="employeeName" id = "c">Employee Name</label>
                 <input type="text" class="form-control" id="employeeName" placeholder="Employee Name">
             </div>
+
+<br>
+
             <div class="form-group">
                 <label for="role" id = "d">Role</label>
                 <input type="text" class="form-control" id="role" placeholder="Role">
             </div>
+
+<br>
+
             <div class="form-group">
                     <label for="startDate" id = "e">Start Date (MM/DD/YYYY)</label>
                     <input type="date" class="form-control" id="startDate" placeholder="01/01/2000">
                 </div>
-                <div class="input-group">
+
+<br>
+
+                <div class="input-group" id = "press">
                         <input type="number" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
                         <div class="input-group-append">
                           <span class="input-group-text">$</span>
                           <span class="input-group-text">0.00</span>
                         </div>
                       </div>
-                    <button type="submit" class="btn btn-primary float-right mb-2">Submit</button>
+                    <button type="submit" class="btn btn-primary float-right mb-2" id = "submit">Submit</button>
             </form>
 
+<br>
+<br>
+<br>
             <table class="table" id = "death">
-                    <thead class="thead-dark">
+                    <thead class="thead-dark" id = "life">
                       <tr>
-                        <th scope="col">Employee</th>
-                        <th scope="col">Role</th>
-                        <th scope="col">Start Date</th>
-                        <th scope="col">Months Worked</th>
-                        <th scope="col">Rate($)</th>
-                        <th scope="col">Total Billed</th>
+                        <th scope="col" id = "hand">Employee</th>
+                        <th scope="col" id = "foot">Role</th>
+                        <th scope="col" id = "neck">Start Date</th>
+                        <th scope="col" id = "back"> Months Worked</th>
+                        <th scope="col" id = "leg">Rate($)</th>
+                        <th scope="col" id = "head">Total Billed</th>
                       </tr>
                     </thead>
                     <tbody>
